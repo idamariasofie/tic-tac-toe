@@ -22,13 +22,13 @@ body {
 
 /* --------- Game layout */
 
-.game-area {
-    background-color: whitesmoke;
+.game-board{
+    background-color: beige;
     box-sizing: border-box;
-    width: 85%;
+    width: 60%;
     height: 65vh;
     max-height: 450px;
-    max-width: 830px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
