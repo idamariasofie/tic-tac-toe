@@ -22,7 +22,7 @@ body {
 
 /* --------- Game layout */
 
-.game-board{
+#game-board {
     background-color: beige;
     box-sizing: border-box;
     width: 60%;
