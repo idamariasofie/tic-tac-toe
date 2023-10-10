@@ -18,7 +18,7 @@
   <body>
     <!-- Header -->
     <h1 class="heading">
-      <img id="logo" src="assets/images/tic tac toe logo.png" alt="logo">
+      <img id="logo" src="assets/images/rock-paper-scissors.png" alt="logo">
     </h1>
     <!-- Instructions and reset section -->
     <section class="game-instructions"></section>
@@ -30,16 +30,21 @@
       <img id="game-board" src="assets/images/tic-tac-toe field.png" alt="game-board">
       <div class="controls-area"></div>
     </div>
-
+<!-- Score area -->
     <div class="score-area">
-      <button data-type="start game" class="btn"></button>
+        <h2 class="heading">Your turn</h2>
       <p class="scores">You <span id="score">0</span></p>
       <p class="scores">Computer <span id="loosing">0</span></p>
     </div>
-
+    <!-- Game control area -->
+    <div class="controls-area">
+        <button class="btn btn--rock">Rock</button>
+        <button class="btn btn--paper">Paper</button>
+        <button class="btn btn--scissors">Scissors</button>
+    </div>
     <!-- Footer -->
     <footer>
-      Tic-Tac-Toe game developed by Sofie Andersson for Code Institute's
+      Rock-Paper-Scissors game developed by Sofie Andersson for Code Institute's
       portfolio project 2
     </footer>
     <!-- Javascript file -->
