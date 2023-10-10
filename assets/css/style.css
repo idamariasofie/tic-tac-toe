@@ -103,7 +103,7 @@ body {
 /* --------- Media queries */
 
 @media (max-width: 414px) {
-    .controls-area {
+    .game-board {
         width: 100%;
     }
 
@@ -137,7 +137,7 @@ body {
 }
 
 @media (max-width: 320px) {
-    .game-area {
+    .game-board {
         height: 70vh;
     }
 
